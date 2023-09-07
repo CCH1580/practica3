@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AplixacionPrueba3.props" />
+</Project>

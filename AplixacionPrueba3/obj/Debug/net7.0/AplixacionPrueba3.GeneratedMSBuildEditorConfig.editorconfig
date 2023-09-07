@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = AplixacionPrueba3
+build_property.RootNamespace = AplixacionPrueba3
+build_property.ProjectDir = C:\Users\mshad\Downloads\ProyectosBlazor\AplixacionPrueba3\AplixacionPrueba3\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\mshad\Downloads\ProyectosBlazor\AplixacionPrueba3\AplixacionPrueba3
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/mshad/Downloads/ProyectosBlazor/AplixacionPrueba3/AplixacionPrueba3/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mshad/Downloads/ProyectosBlazor/AplixacionPrueba3/AplixacionPrueba3/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mshad/Downloads/ProyectosBlazor/AplixacionPrueba3/AplixacionPrueba3/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mshad/Downloads/ProyectosBlazor/AplixacionPrueba3/AplixacionPrueba3/Pages/GraficaComponente.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR3JhZmljYUNvbXBvbmVudGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mshad/Downloads/ProyectosBlazor/AplixacionPrueba3/AplixacionPrueba3/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mshad/Downloads/ProyectosBlazor/AplixacionPrueba3/AplixacionPrueba3/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mshad/Downloads/ProyectosBlazor/AplixacionPrueba3/AplixacionPrueba3/Shared/TelerikLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFRlbGVyaWtMYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mshad/Downloads/ProyectosBlazor/AplixacionPrueba3/AplixacionPrueba3/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mshad/Downloads/ProyectosBlazor/AplixacionPrueba3/AplixacionPrueba3/Pages/GanttComponente.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FudHRDb21wb25lbnRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-atwojdgrax
+
+[C:/Users/mshad/Downloads/ProyectosBlazor/AplixacionPrueba3/AplixacionPrueba3/Pages/GanttComponente2.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FudHRDb21wb25lbnRlMi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-sa4sycu9ve
+
+[C:/Users/mshad/Downloads/ProyectosBlazor/AplixacionPrueba3/AplixacionPrueba3/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-rgkyos3d72
+
+[C:/Users/mshad/Downloads/ProyectosBlazor/AplixacionPrueba3/AplixacionPrueba3/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-stqc5tt8n4

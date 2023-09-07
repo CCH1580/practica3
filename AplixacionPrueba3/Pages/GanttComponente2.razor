@@ -1,0 +1,35 @@
+﻿@page "/gantt2"
+
+
+
+<div class="gant">
+    <TelerikGantt class="gant"
+                  Data="@Data"
+                  Width="800px"
+                  Height="auto"
+                  IdField="Id"
+                  ParentIdField="ParentId"
+                  OnCreate="@CreateItem">
+
+        <GanttToolBarTemplate>
+            <GanttCommandButton>Liberado</GanttCommandButton>
+            <GanttCommandButton>No Liberado</GanttCommandButton>
+            <GanttCommandButton>No Iniciado</GanttCommandButton>
+            <GanttCommandButton>En Desarrollo</GanttCommandButton>
+        </GanttToolBarTemplate>
+
+
+
+        <GanttViews>
+            <GanttMonthView>
+                <MonthHeaderTemplate>
+                    <strong>@DateTime.Now.ToString("MMMM") @DateTime.Now.ToString("yyyy")</strong>
+                </MonthHeaderTemplate>
+            </GanttMonthView>
+        </GanttViews>
+
+    </TelerikGantt>
+</div>
+
+
+

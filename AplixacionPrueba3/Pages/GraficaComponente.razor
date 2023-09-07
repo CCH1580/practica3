@@ -1,0 +1,31 @@
+﻿@page "/graficas"
+
+<h1> Gráfica </h1>
+
+<TelerikChart RenderAs="@RenderingMode.Canvas">
+    <ChartTooltip Visible="true"></ChartTooltip>
+    <ChartTitle Text="Concentrado mensual de visitantes"></ChartTitle>
+    <ChartLegend Visible="false"></ChartLegend>
+
+    <ChartSeriesItems>
+        <ChartSeries Type="ChartSeriesType.Bar" 
+                     Name="Total de visitas" 
+                     Data="@Series1Data"
+                     ColorField="@Color">
+        </ChartSeries>
+        <ChartSeries Type="ChartSeriesType.Bar" 
+                     Name="Únicas visitas" 
+                     Data="@Series2Data"
+                     ColorField="@Color">
+        </ChartSeries>
+    </ChartSeriesItems>
+
+    <ChartValueAxes>
+        <ChartValueAxis Max="2000"></ChartValueAxis>
+    </ChartValueAxes>
+
+    <ChartCategoryAxes>
+        <ChartCategoryAxis Categories="@Categories"></ChartCategoryAxis>
+    </ChartCategoryAxes>
+
+</TelerikChart>

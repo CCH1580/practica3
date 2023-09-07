@@ -1,0 +1,41 @@
+﻿
+@page "/gantt"
+
+<TelerikGantt Data="@Data"
+              Width="100%"
+@bind-TreeListWidth="@TreeListWidth"
+              Height="600px"
+              IdField="Id"
+              ParentIdField="ParentId"
+              OnCreate="@CreateItem">
+    <GanttToolBarTemplate>
+        <GanttCommandButton Command="Add" Icon="@SvgIcon.Plus">Add</GanttCommandButton>
+    </GanttToolBarTemplate>
+    <GanttColumns>
+        <GanttColumn Field="Id"
+                     Visible="false">
+        </GanttColumn>
+        <GanttColumn Field="Title"
+                     Expandable="true"
+                     Width="200px"
+                     Title="Task Title">
+        </GanttColumn>
+        <GanttColumn Field="Start"
+                     Width="100px"
+                     DisplayFormat="{0:d}">
+        </GanttColumn>
+        <GanttColumn Field="End"
+                     Width="100px"
+                     DisplayFormat="{0:d}">
+        </GanttColumn>
+        <GanttColumn Field="PercentComplete"
+                     Title="Percent Complete"
+                     Width="100px"
+                     DisplayFormat="{0:P}">
+        </GanttColumn>        
+    </GanttColumns>
+    <GanttViews>
+        <GanttWeekView></GanttWeekView>
+    </GanttViews>
+</TelerikGantt>
+ 
